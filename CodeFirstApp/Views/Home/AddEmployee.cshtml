@@ -1,0 +1,64 @@
+<!DOCTYPE html>
+
+<html lang="en">
+
+<head>
+
+    <meta charset="UTF-8">
+
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+
+    <title>Add employees</title>
+
+</head>
+
+<body>
+
+    <form method="post">
+
+        <div>
+
+            <input type="text" name="Employee.Name"  placeholder="Enter name" required />
+
+        </div>
+
+
+
+
+        <div>
+
+            <input type="text" name="Employee.Email" placeholder="Enter email" required />
+
+        </div>
+
+        <div>
+
+            <input type="number" name="Employee.Salary" placeholder="Enter salary" required />
+
+        </div>
+
+        <div>
+
+            <input type="date" name="Employee.DatofBirth" placeholder="Enter DOB" required />
+
+        </div>
+
+        <div>
+
+            <input type="text" name="Employee.Department" placeholder="Enter department" required />
+
+        </div>
+
+        <div>
+
+            <a asp-controller="Home" asp-action="AddEmployee" ><button type="submit" class="btn btn-primary">Submit</button></a>
+
+        </div>
+
+    </form>
+
+</body>
+
+</html>
